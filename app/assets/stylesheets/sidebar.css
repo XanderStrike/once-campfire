@@ -41,7 +41,7 @@
       aspect-ratio: 1;
       background-color: var(--color-negative);
       block-size: var(--size);
-      border-radius: calc(var(--size) * 2);
+      border-radius: 0;
       content: "";
       flex-shrink: 0;
       inline-size: var(--size);
@@ -181,7 +181,7 @@
       aspect-ratio: 1;
       background-color: var(--color-text);
       block-size: var(--size);
-      border-radius: calc(var(--size) * 2);
+      border-radius: 0;
       content: "";
       flex-shrink: 0;
       inline-size: var(--size);
@@ -231,7 +231,7 @@
 }
 
 .room--current {
-  --btn-border-radius: 0.5em;
+  --btn-border-radius: 0;
   --hover-filter: none;
   --num-buttons: 1;
 

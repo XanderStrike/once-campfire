@@ -48,7 +48,7 @@
 
 .mention {
   --avatar-size: 1.1em;
-  --avatar-border-radius: var(--avatar-size);
+  --avatar-border-radius: 0;
 
   align-items: center;
   color: inherit;
@@ -80,7 +80,7 @@
 
 blockquote .attachment--preview {
   --avatar-size: 2.5ch;
-  --avatar-border-radius: 2em;
+  --avatar-border-radius: 0;
 
   color: inherit;
   display: inline-flex;

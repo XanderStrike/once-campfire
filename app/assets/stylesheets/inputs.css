@@ -2,7 +2,7 @@
 .input {
   accent-color: var(--input-accent-color, var(--color-text));
   background-color: var(--input-background, transparent);
-  border-radius: var(--input-border-radius, 0.5em);
+  border-radius: var(--input-border-radius, 0);
   border: var(--input-border-size, 1px) solid var(--input-border-color, var(--color-border-darker));
   color: var(--input-color, var(--color-text));
   font-size: max(16px, 1em);
@@ -106,7 +106,7 @@
 
     block-size: 100%;
     border: 0;
-    border-radius: 50%;
+    border-radius: 0;
     inline-size: 100%;
     overflow: clip;
     padding: 0;

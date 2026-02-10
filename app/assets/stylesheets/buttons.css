@@ -5,7 +5,7 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-text-reversed));
-  border-radius: var(--btn-border-radius, 2em);
+  border-radius: var(--btn-border-radius, 0);
   border: var(--btn-border-size, 1px) solid var(--btn-border-color, var(--color-border-darker));
   color: var(--btn-color, var(--color-text));
   cursor: pointer;
@@ -42,7 +42,7 @@
 
   /* Circle buttons */
   &:where(:has(.for-screen-reader):has(img, figure)) {
-    --btn-border-radius: 50%;
+    --btn-border-radius: 0;
     --btn-padding: 0;
 
     aspect-ratio: 1;
