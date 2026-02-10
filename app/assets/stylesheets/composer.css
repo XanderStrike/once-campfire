@@ -36,7 +36,7 @@
 
 .composer__file {
   --aspect-ratio: 5/4;
-  --btn-border-radius: 1em;
+  --btn-border-radius: 0;
   --thumbnail-size: 15ch;
 
   aspect-ratio: var(--aspect-ratio);

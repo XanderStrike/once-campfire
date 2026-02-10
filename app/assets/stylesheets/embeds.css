@@ -65,7 +65,7 @@ trix-editor,
 
     .cf-twitter-avatar & {
       aspect-ratio: 1;
-      border-radius: 50%;
+      border-radius: 0;
       inline-size: 2lh;
       block-size: 2lh;
     }
